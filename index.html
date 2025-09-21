@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page Pribadi</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-icon" onclick="toggleMenu()">
+        <i class='bx bx-menu'></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Halo, Saya Vincent</h1>
+      <p>Seorang mahasiswa yang tertarik dengan Web Development & Data</p>
+      <a href="#contact" class="btn">Hubungi Saya</a>
+    </div>
+    <div class="hero-img">
+      <img src="images.png" alt="Foto Profil">
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="education" id="education">
+    <h2>Education</h2>
+    <p>Mahasiswa Teknik Informatika, Universitas XYZ. Fokus pada Web Development, Data Analysis, dan Machine Learning.</p>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <h2>Services</h2>
+    <div class="service-box">
+      <div class="card">
+        <i class='bx bx-code-alt'></i>
+        <h3>Web Development</h3>
+        <p>Membangun website modern dan responsif.</p>
+      </div>
+      <div class="card">
+        <i class='bx bx-data'></i>
+        <h3>Data Analysis</h3>
+        <p>Analisis data untuk menghasilkan insight bermanfaat.</p>
+      </div>
+      <div class="card">
+        <i class='bx bx-brain'></i>
+        <h3>Machine Learning</h3>
+        <p>Mengembangkan model pembelajaran mesin sederhana.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="portfolio" id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-gallery">
+      <img src="portfolio1.jpg" alt="Project 1">
+      <img src="portfolio2.jpg" alt="Project 2">
+      <img src="portfolio3.jpg" alt="Project 3">
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Nama" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Pesan..." required></textarea>
+      <button type="submit" class="btn">Kirim</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Vincent | Dibuat dengan ❤️</p>
+    <div class="social-icons">
+      <a href="#"><i class='bx bxl-github'></i></a>
+      <a href="#"><i class='bx bxl-linkedin'></i></a>
+      <a href="#"><i class='bx bxl-instagram'></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
